@@ -1,0 +1,7 @@
+JPanel panel = new JPanel(new GridBagLayout()); 
+GridBagConstraints constraints = new GridBagConstraints(); 
+
+JButton button1 = new JButton("Button 1"); 
+constraints.gridx = 0; 
+constraints.gridy = 0; 
+panel.add(button1, constraints); 
